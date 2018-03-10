@@ -1,0 +1,16 @@
+{% include head.html %}
+<div id="main">
+  <h1>{{site.title}}</h1>
+  <br>  
+  {{content}}
+  <div id="footer">
+    <h2>A propos</h2>
+      <p>Ce site web à été généré grace au framework <a href="https://jekyllrb.com/">jekyll</a> (CC-BY-SA) et l'entièreté du code source permettant de le générer est <a href="https://github.com/bidouilleurslibristes/ABL-website">disponible sur github</a></p>
+  </div>
+</div>
+
+<div id="sidebar">
+{% include sidebar.html %}
+</div>
+
+{% include footer.html %}
